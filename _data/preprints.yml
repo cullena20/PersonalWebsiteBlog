@@ -1,0 +1,11 @@
+- title: "Understanding and Mitigating Dataset Corruption in LLM Steering"
+  authors: ["Cullen Anderson", "Narmeen Oozeer", "Foad Namjoo", "Remy Ogasawara", "Amirali Abdullah", "Jeff M. Phillips"]
+  year: 2026
+  url: "https://arxiv.org/abs/2603.03206"
+  note: "Under submission"
+
+- title: "Judging by the Cover: Cleaning LLM Truthfulness Benchmarks to Avoid Surface-Level Feature Leakage"
+  authors: ["Foad Namjoo", "Remy Ogasawara", "Amirali Abdullah", "Cullen Anderson", "Narmeen Fatimah Oozeer", "Jeff M. Phillips"]
+  year: 2026
+  url: "https://arxiv.org/abs/2609.13003"
+  note: "Under submission"

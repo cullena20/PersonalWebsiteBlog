@@ -37,10 +37,8 @@ url: "https://cullenanderson.com" # the base hostname & protocol for your site, 
 github_username:  cullena20
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 show-excerpt: true
 excerpt_separator: <!-- excerpt-end -->

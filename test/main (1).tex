@@ -1,0 +1,345 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeTripleSubheading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Cullen Anderson} \\ \vspace{1pt}
+    \small 1-646-673-6948 $|$ \href{mailto:cyanderson@umass.edu}{\underline{cyanderson@umass.edu}} $|$ 
+    \href{https://www.linkedin.com/in/cullenyanderson/}{\underline{linkedin.com/in/cullenyanderson}} $|$
+    \href{https://github.com/cullena20}{\underline{github.com/cullena20}} $|$
+    \href{http://www.cullenanderson.com/}{\underline{cullenanderson.com}} $|$
+    \small  NYC, NY
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeTripleSubheading
+      {University of Massachusetts Amherst}{Amherst, MA}
+      {BS in Computer Science, BS in Pure Math}{ Graduated: May 2025, GPA: 3.86}
+      {MS in Computer Science}{May 2026}
+      \resumeItemListStart
+        \resumeItem{Awarded the Bay State Fellowship, a full-tuition scholarship for the MS program.}
+        % \resumeItem{Graduate Coursework:  Ongoing: Math of Generative Modeling, Mathematical Machine Learning, Advanced Complexity Theory; Completed: Advanced Algorithms, Algorithms For Data Science, Advanced Probability Theory, Topological Data Analysis, Machine Learning, Formal Language Theory, Topology}
+        % \resumeItem{Undergraduate Coursework: Software Engineering, Systems, Graphics, Algorithms, Programming Methodology,  Data Structures, Theory Of Computation, Programming In C, Object Oriented Programming, Statistics For CS, Real Analysis, Abstract Algebra, Calc 3, Linear Algebra}
+        % \resumeItem{Relevant Coursework: Ongoing - Advanced Algorithms, Algorithms For Data Science, Advanced Probability Theory, Topological Data Analysis; Completed - Machine Learning, Software Engineering, Systems, Graphics, Algorithms, Formal Language Theory, Programming Methodology, Topology, Real Analysis, Data Structures, Theory Of Computation, Programming In C, Object Oriented Programming, Statistics For CS, Abstract Algebra, Calc 3, Linear Algebra}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Development Intern}{May 2025 -- August 2025}
+      {Cosmos AI, Epic Systems}{Madison, WI}
+      \resumeItemListStart
+        \resumeItem{Built an ML explainability pipeline to interpret patient similarity groups, surfacing feature prevalence, odds ratios, and ML model-derived feature relevance to support physicians and researchers in Powered by Cosmos applications.}
+        \resumeItem{Engineered pipelines over Cosmos, a 300M+ deidentified patient SQLServer database, using large-scale SQL and pandas to extract, vectorize, and analyze medical features.}
+        \resumeItem{Proposed and secured access to patient embeddings from Cosmos AI (an early foundation model for health records), independently designing and running linear probe experiments with ROC analysis; delivered extensible infrastructure for future embedding evaluations.}
+        % \resumeItem{Communicated progress through mid-summer and final presentations; collaborated with engineers in regular design and review meetings, gaining experience in industry-scale software engineering workflows.}
+        \resumeItem{Presented demos in a mid-summer talk to 50+ engineers and an end-of-summer science-fair style session, communicating findings to both technical and cross-functional audiences.}
+    \resumeItemListEnd
+      
+    \resumeSubheading
+      {Researcher}{July 2023 -- September 2024}
+      {University Of Utah}{Salt Lake City, UT}
+      \resumeItemListStart
+        \resumeItem{Led research on computationally efficient robust statistics on corrupted high dimensional data under low data size, culminating in first-author paper accepted at TMLR; funded by an NSF grant.}
+        \resumeItem{Performed first wide-scale experimental study of modern robust mean estimation methods; evaluating methods across synthetic, Large Language Model, and deep image model data.}
+        \resumeItem{Extended state of the art algorithm to the low data size regime through a novel theorem, significantly enhancing experimental performance.}
+        \resumeItem{Developed a modular Python library for robust mean estimation, offering a suite of modern algorithms and an extendable experimental infrastructure for researchers and practitioners.}
+        % \resumeItem{Originally accepted as a summer REU student where I worked on campus for ten weeks and was funded by an NSF grant.}
+      \resumeItemListEnd
+
+     \resumeSubheading
+      {Researcher}{June 2024 -- August 2024}
+      {University Of Houston + INAOE}{Puebla, Mexico}
+      \resumeItemListStart
+        \resumeItem{Applied a suite of Multi-Task training methods to finetune a deep Multi-Modal model for Comic Mischief Detection.}
+        \resumeItem{Used PyTorch to implement Multi-Modal deep learning models, Multi-Task training methods, and experimental infrastructure.}
+        \resumeItem{Worked in person at INAOE, a Mexican research institution, and attended NAACL 2024, funded by an NSF grant.}
+      \resumeItemListEnd
+      
+    % \resumeSubheading
+    %   {Software Engineering Intern}{January 2023 -- May 2023}
+    %   {Initiative For Digital Public Infrastructure}{Amherst, MA}
+    %   \resumeItemListStart
+    %     \resumeItem{Led the development of a deduplication algorithm for Gobo, a social media aggregator combining Reddit, Twitter, and Mastodon into a unified platform with user-controlled algorithms.}
+    %     \resumeItem{Utilized Python and social media APIs to create a dataset of social media posts across platforms.}
+    %     \resumeItem{Designed and implemented complex duplicate detection rules in Python, ensuring accuracy and minimizing redundancy.}
+    %     \resumeItem{Conducted extensive testing and validation of the algorithm across both real and augmented data using unittest.}
+    %   \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    % \resumeSubheading
+    %   {Intern}{March 2021 -- February 2022}
+    %   {EPIC, Columbia University}{NY, NY}
+    %   \resumeItemListStart
+    %     \resumeItem{Analyzed interview data of Nobel Prize winning scientists and Olympic athletes in a small team. Leveraged data insights to develop scripts tailored for research purposes.}
+    %     \resumeItem{Worked collaboratively to write and edit an intro film to EPIC’s research. Worked under the supervision of founding director Dr. Xiaodong Lin and assistant director Dr. Daoquan Li.}
+    % \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {President Of Machine Learning Club}{Oct. 2021 -- June 2022}
+    %   {Stuyvesant High School}{NY, NY}
+    %   \resumeItemListStart
+    %     \resumeItem{Lead biweekly discussions and lectures to teach members about artificial intelligence.}
+    %     \resumeItem{Planned and taught lessons about topics including: the math behind neural networks, coding machine learning models in Python using Keras, and future applications of AI. }
+    %   \resumeItemListEnd
+      
+    % \resumeSubheading
+    %   {Film Fellow}{June 2021 -- Jan. 2022}
+    %   {Ghetto Film School}{NY, NY}
+    %   \resumeItemListStart
+    %     \resumeItem{Demonstrated exceptional leadership by overseeing a film crew and successfully casting and directing actors to independently write, direct, and edit a film.}
+    %     \resumeItem{Distinguished as one of 30 participants in a competitive, tuition-free film program. Successfully managed a rigorous schedule consisting of daily meetings during the summer and weekly meetings during the school year.}
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Teaching}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Teaching Assistant \& Undergraduate Course Assistant}{Feb 2025 -- Jan 2025}
+      {UMass Amherst}{Amherst, MA}
+      \resumeItemListStart
+          \resumeItem{Host office hours, assist with discussions, contribute to homework/exam design, and grade proof-heavy assignments.}
+        \resumeItem{Teaching Assistant for CS 311 – Introduction to Algorithms (Fall 2025), where I additionally lead weekly discussion sections.}
+        \resumeItem{Former UCA for CS 501 - Formal Language Theory (Spring 2025).}
+
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+        
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+        \resumeProjectHeading
+          {\textbf{Generative Text and Image Model Steering} $|$ \emph{Python, PyTorch, HuggingFace, Matplotlib}}{}
+          \resumeItemListStart
+            \resumeItem{Performed LLM steering using lightweight embedding level linear interventions; successfully inciting toxic behavior in Gemma and manipulating the views while maintaining the style of a fine-tuned Llama model.}
+            \resumeItem{Performed similar experiments to edit images in the latent space of a VAE model (coded from scratch and pretrained) and in Latent Diffusion, with moderate success.}
+          \resumeItemListEnd
+          
+        \resumeProjectHeading
+          {\textbf{Robust Mean Estimation Library} $|$ \emph{Python, NumPy, Matplotlib, PyTorch, Hugging Face, SciPy, Cvxpy}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a suite of robust mean estimation algorithms; synthetic, LLM, deep image model, and GloVe word embedding data generation and corruption schemes; and experimental infrastructure.}
+            \resumeItem{Designed and well-documented with a focus on modularity, enabling future researchers and practitioners to evaluate new algorithms over different data and experimental conditions.}
+          \resumeItemListEnd
+    
+        \resumeProjectHeading
+          {\textbf{Reddit Sentiment Analysis} $|$ \emph{Python, Flask, Keras, Reddit API, HTML/CSS}}{}
+          \resumeItemListStart
+            \resumeItem{Built a ML sentiment analysis model using Keras on a web application with Flask; the website allows users to perform sentiment analysis on Reddit Subreddits based on popular headlines.}
+          \resumeItemListEnd
+
+        % \resumeProjectHeading
+        %   {\textbf{Job Search Website} $|$ \emph{Javascript, Node.js, Express, PostgreSQL}}{}
+        %   \resumeItemListStart
+        %     \resumeItem{Collaborated in a team during a Software Engineering course to develop a full-stack JavaScript job search website, utilizing Agile methodologies.}
+        %     \resumeItem{As part of backend team, designed and implemeted RESTful API endpoints, optimized database interactions with PostgreSQL, and ensured integration between the frontend and backend using Express and Node.js.}
+        %   \resumeItemListEnd
+          
+        % \resumeProjectHeading
+        %   {\textbf{Transformer For Translation} $|$ \emph{Python, PyTorch}}{}
+        %   \resumeItemListStart
+        %     \resumeItem{Coded a Transformer from scratch using PyTorch. Trained for English to French translation.}
+        %     \resumeItem{Expanded capabilities inspired by Andrej Karpathy's GPT tutorial to be applied to translation. This included building an encoder block, adding cross-attention, and building training and inference pipelines.}
+        %   \resumeItemListEnd
+        
+        % \resumeProjectHeading
+        %       {\textbf{Digit Recognizer Website} $|$ \emph{Python, Keras, NumPy, Pillow, Flask, JavaScript, HTML/CSS}}{}
+        %       \resumeItemListStart
+        %         \resumeItem{Implemented a neural network from scratch in NumPy and convolutional neural network using Keras.}
+        %         \resumeItem{Built image preprocessing pipeline using Pillow, allowing digits drawn on or submitted to the website to be identified.}
+        %         \resumeItem{Built full-stack web interface using Flask, JavaScript, and HTML/CSS.}
+        %       \resumeItemListEnd
+              
+        % \resumeProjectHeading
+        %   {\textbf{Velocity Selector Game} $|$ \emph{JavaScript, HTML/CSS}}{}
+        %   \resumeItemListStart
+        %     \resumeItem{Developed an online physics simulator game to teach students about the concepts of projectile motion, electric fields, and magnetic fields. The game consists of adjusting parameters to shoot a ball through an electric and magnetic field.}
+        %   \resumeItemListEnd
+          
+        % \resumeProjectHeading
+        %   {\textbf{Stanford Machine Learning Coursera} $|$ \emph{Python, Numpy, Tensorflow, Keras, Pandas, Matplotlib}}{}
+        %   \resumeItemListStart
+        %     \resumeItem{Completed Coursera Stanford Machine Learning Course where I implemented several ML algorithms in Python. These algorithms include both supervised and unsupervised techniques such as: Neural Networks, Decision Trees, and K-Means Clustering.}
+        %   \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Skills}
+Python, PyTorch, Hugging Face, SQL, JavaScript, TypeScript, Java, C, NumPy, Matplotlib, HTML, CSS, Flask
+%-----------Volunteering-----------
+% \section{Volunteering}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{North } $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+%           \resumeItemListStart
+%             \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+%             \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+%             \resumeItem{Visualized GitHub data to show collaboration}
+%             \resumeItem{Used Celery and Redis for asynchronous tasks}
+%           \resumeItemListEnd
+%       \resumeProjectHeading
+%           {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+%           \resumeItemListStart
+%             \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+%             \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+%             \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+%             \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: Python, Java, JavaScript, HTML/CSS} \\
+%      \textbf{Frameworks}{: Flask} \\
+%      \textbf{Developer Tools}{: Git, Docker, VSCode, PyCharm} \\
+%      \textbf{Libraries}{: TensorFlow, NumPy, Matplotlib, Pandas}
+%     }}
+%  \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,11 @@
+- title: "Robust High-Dimensional Mean Estimation With Low Data Size, an Empirical Study"
+  authors: ["Cullen Anderson", "Jeff M. Phillips"]
+  year: 2025
+  venue: "TMLR 2025"
+  url: "https://arxiv.org/abs/2502.11324"
+
+- title: "From Token Probabilities to Semantic Constraints: Towards Declarative Probabilistic Evaluation of Language Models"
+  authors: ["Kyle Richardson", "Cullen Anderson", "Pranav Balakrishnan", "Takuto Ban", "Daksha Ladia", "Ankita Gupta", "Marisa Hudspeth"]
+  year: 2026
+  venue: "EMNLP Main 2026"
+  url: "https://arxiv.org/abs/2609.13520"

@@ -24,6 +24,11 @@ a:visited {
     color: #0645ad;
 }
 
+a:focus:not(:focus-visible) {
+    outline: none;
+    color: #0645ad;
+}
+
 .wrapper {
     max-width: 760px;
     margin: 0 auto;
@@ -47,12 +52,12 @@ a:visited {
 }
 
 .subtle-link {
-    color: #666;
+    color: #5a7fa8;
     text-decoration: none;
 }
 
 .subtle-link:hover {
-    color: #444;
+    color: #0a3a8a;
 }
 
 /* ===================================

@@ -150,6 +150,12 @@ h2 {
     color: #555;
 }
 
+.pub-award {
+    font-size: 14px;
+    color: #b8860b;
+    margin-left: 6px;
+}
+
 .pub-note {
     font-size: 14px;
     color: #888;

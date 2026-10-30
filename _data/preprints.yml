@@ -4,8 +4,14 @@
   url: "https://arxiv.org/abs/2603.03206"
   note: "Under submission"
 
+- title: "Orthogonal and Parametrized Multi-Attribute Steering of LLMs"
+  authors: ["Remy Ogasawara", "Cullen Anderson", "Narmeen Oozeer", "Foad Namjoo", "Amirali Abdullah", "Jens Kristian Refsgaard Schou", "Jeff M. Phillips"]
+  year: 2026
+  url: "https://arxiv.org/abs/2610.37517"
+  note: "Under submission"
+
 - title: "Judging by the Cover: Cleaning LLM Truthfulness Benchmarks to Avoid Surface-Level Feature Leakage"
-  authors: ["Foad Namjoo", "Remy Ogasawara", "Amirali Abdullah", "Cullen Anderson", "Narmeen Fatimah Oozeer", "Jeff M. Phillips"]
+  authors: ["Foad Namjoo", "Remy Ogasawara", "Amirali Abdullah", "Cullen Anderson", "Narmeen Oozeer", "Jeff M. Phillips"]
   year: 2026
   url: "https://arxiv.org/abs/2609.13003"
   note: "Under submission"

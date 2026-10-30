@@ -2,6 +2,7 @@
   authors: ["Kyle Richardson", "Cullen Anderson", "Pranav Balakrishnan", "Takuto Ban", "Daksha Ladia", "Ankita Gupta", "Marisa Hudspeth"]
   year: 2026
   venue: "EMNLP Main 2026"
+  award: "🏆 Outstanding Paper Award"
   url: "https://arxiv.org/abs/2609.13520"
 
 - title: "Robust High-Dimensional Mean Estimation With Low Data Size, an Empirical Study"
